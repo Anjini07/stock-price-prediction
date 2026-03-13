@@ -91,3 +91,8 @@ Possible improvements include:
 - Incorporating sentiment analysis from financial news
 - Applying deep learning models
 - Using longer historical windows for feature generation
+
+## Saved Model
+
+The trained Logistic Regression model is saved as a `.pkl` file using joblib.  
+This allows the model to be reused later without retraining.
